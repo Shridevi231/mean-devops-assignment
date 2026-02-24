@@ -30,3 +30,13 @@ jobs:
 
       - name: Push Frontend
         run: docker push shridevi231/mean-frontend:latest
+      - name: Deploy to VM
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: 98.94.91.151
+          username: ubuntu
+          key: ${{ secrets.VM_SSH_KEY }}
+          script: |
+            cd mean-devops-assignment
+            docker-compose pull
+            docker-compose up -d

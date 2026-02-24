@@ -330,7 +330,24 @@ Add the private key to GitHub Secrets.
 Application accessible via port 80
 
 
+## 📸 Screenshots
 
+### CI/CD Pipeline Success
+![CI/CD](screenshots/cicd-success.png)
+
+### Docker Hub Repositories
+![Docker Hub](screenshots/dockerhub-repos.png)
+
+### EC2 Instance Running
+![EC2](screenshots/EC2-instance.png)
+
+### Application Working on Port 80
+![Home Page](screenshots/app-working-home.png)
+![Added Item](screenshots/added-item.png)
+![Tutorial List](screenshots/tutorial_list.png)
+
+### Nginx Configuration
+![Nginx Config](screenshots/ngnix-status.png)
 
   
 

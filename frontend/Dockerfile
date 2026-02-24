@@ -14,4 +14,4 @@ RUN npm install -g serve
 
 EXPOSE 8081
 
-CMD ["serve", "-s", "dist", "-l", "8081"]
+CMD ["serve", "-s", "dist/angular-15-crud", "-l", "8081"]

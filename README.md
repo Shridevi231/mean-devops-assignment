@@ -157,6 +157,7 @@ const app = express();
 Open:
 
 http://YOUR_PUBLIC_IP:8081
+
 ---
 
 ## 🟢 STEP 8 - Pushing Docker images to your Docker Hub account.

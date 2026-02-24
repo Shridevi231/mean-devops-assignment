@@ -58,6 +58,7 @@ Latest images are pulled
 Containers restart automatically
 
 Workflow file: .github/workflows/deploy.yml
+
 ---
 ## 🌐 Nginx Reverse Proxy
 
